@@ -1,6 +1,7 @@
 module.exports = {
   extends: [
     '@antfu',
+    'plugin:cypress/recommended',
     'plugin:import/recommended',
     'plugin:markdown/recommended',
     'plugin:md/recommended',
