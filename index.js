@@ -29,5 +29,11 @@ module.exports = {
   rules: {
     '@typescript-eslint/brace-style': ['error', '1tbs'],
     'brace-style': ['error', '1tbs'],
+    'md/remark': [
+      'error',
+      {
+        plugins: ['frontmatter', ['lint-maximum-line-length', false]],
+      },
+    ],
   },
 }
