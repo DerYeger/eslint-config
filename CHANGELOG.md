@@ -1,3 +1,10 @@
+## [1.1.1](https://github.com/DerYeger/eslint-config/compare/v1.1.0...v1.1.1) (2022-02-13)
+
+
+### Bug Fixes
+
+* move dependencies ([14a4812](https://github.com/DerYeger/eslint-config/commit/14a4812107bc2c60b7620e983295de1a4a15b4b1))
+
 # [1.1.0](https://github.com/DerYeger/eslint-config/compare/v1.0.2...v1.1.0) (2022-02-13)
 
 
