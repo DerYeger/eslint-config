@@ -64,6 +64,8 @@ module.exports = {
       },
     ],
     'no-unused-vars': 'off',
+    'prefer-template': 'error',
+    'prefer-const': 'error',
     'tsdoc/syntax': 'error',
     'unused-imports/no-unused-imports': 'error',
     'unused-imports/no-unused-vars': [
