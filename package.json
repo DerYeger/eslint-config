@@ -23,11 +23,11 @@
   "main": "index.js",
   "scripts": {
     "prepare": "husky install",
-    "lint": "eslint \"./**/*.{js,json}\""
+    "lint": "eslint \"./**/*.{js,json,md}\""
   },
   "sideEffects": false,
   "lint-staged": {
-    "*.{js,json}": "eslint --fix"
+    "*.{js,json,md}": "eslint --fix"
   },
   "peerDependencies": {
     "eslint": ">=7.4.0"
@@ -40,6 +40,7 @@
     "@commitlint/config-conventional": "16.0.0",
     "@yeger/eslint-config": "link:.",
     "eslint": "8.9.0",
+    "eslint-plugin-markdown": "2.2.1",
     "husky": "7.0.4",
     "lint-staged": "12.3.3"
   },
