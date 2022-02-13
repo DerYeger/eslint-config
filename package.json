@@ -34,7 +34,14 @@
     "eslint": ">=7.4.0"
   },
   "dependencies": {
-    "@antfu/eslint-config": "0.16.1"
+    "@antfu/eslint-config": "0.16.1",
+    "eslint-config-prettier": "8.3.0",
+    "eslint-plugin-markdown": "2.2.1",
+    "eslint-plugin-md": "1.0.19",
+    "eslint-plugin-prettier": "4.0.0",
+    "eslint-plugin-yml": "0.13.0",
+    "prettier": "2.5.1",
+    "yaml-eslint-parser": "0.5.0"
   },
   "devDependencies": {
     "@antfu/ni": "0.12.0",
@@ -42,17 +49,7 @@
     "@commitlint/config-conventional": "16.0.0",
     "@yeger/eslint-config": "link:.",
     "eslint": "8.9.0",
-    "eslint-config-prettier": "8.3.0",
-    "eslint-plugin-markdown": "2.2.1",
-    "eslint-plugin-md": "1.0.19",
-    "eslint-plugin-prettier": "4.0.0",
-    "eslint-plugin-yml": "0.13.0",
     "husky": "7.0.4",
-    "lint-staged": "12.3.3",
-    "prettier": "2.5.1",
-    "yaml-eslint-parser": "0.5.0"
-  },
-  "publishConfig": {
-    "access": "public"
+    "lint-staged": "12.3.3"
   }
 }
