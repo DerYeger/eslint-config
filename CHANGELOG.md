@@ -1,3 +1,11 @@
+# [1.2.0](https://github.com/DerYeger/eslint-config/compare/v1.1.1...v1.2.0) (2022-02-13)
+
+
+### Features
+
+* add plugins ([7ce060a](https://github.com/DerYeger/eslint-config/commit/7ce060a4020f73cd51573ce710beb053712a9828))
+* improve markdown linting ([4ab0a02](https://github.com/DerYeger/eslint-config/commit/4ab0a02948a80bbb09ab44e46744cf765c16046f))
+
 ## [1.1.1](https://github.com/DerYeger/eslint-config/compare/v1.1.0...v1.1.1) (2022-02-13)
 
 
