@@ -1,3 +1,10 @@
+## [1.0.2](https://github.com/DerYeger/eslint-config/compare/v1.0.1...v1.0.2) (2022-02-13)
+
+
+### Bug Fixes
+
+* move `rules` ([733e037](https://github.com/DerYeger/eslint-config/commit/733e037825721bff1ab49d53c5ad6041994b3e0a))
+
 ## [1.0.1](https://github.com/DerYeger/eslint-config/compare/v1.0.0...v1.0.1) (2022-02-13)
 
 
