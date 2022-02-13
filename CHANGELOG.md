@@ -1,3 +1,13 @@
+# [1.1.0](https://github.com/DerYeger/eslint-config/compare/v1.0.2...v1.1.0) (2022-02-13)
+
+
+### Features
+
+* improve markdown linting ([5df5ecd](https://github.com/DerYeger/eslint-config/commit/5df5ecd7ec21365efa40e595653007c59f061196))
+* lint markdown ([2ffbf1c](https://github.com/DerYeger/eslint-config/commit/2ffbf1c8944fc0e728de4bb5ded545a4041e6496))
+* lint yml ([8e4b661](https://github.com/DerYeger/eslint-config/commit/8e4b6617724c98934da5d3e12cf1d40c01c38599))
+* use `eslint-plugin-prettier` ([a2cdee9](https://github.com/DerYeger/eslint-config/commit/a2cdee9912ca03a9201f3c93eeda5ce2f63a3607))
+
 ## [1.0.2](https://github.com/DerYeger/eslint-config/compare/v1.0.1...v1.0.2) (2022-02-13)
 
 
