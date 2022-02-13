@@ -1,3 +1,10 @@
+# [1.3.0](https://github.com/DerYeger/eslint-config/compare/v1.2.0...v1.3.0) (2022-02-13)
+
+
+### Features
+
+* add `eslint-plugin-cypress` ([c71c22a](https://github.com/DerYeger/eslint-config/commit/c71c22a1c6d6705c9b5ca7675c4cd4836eeb3870))
+
 # [1.2.0](https://github.com/DerYeger/eslint-config/compare/v1.1.1...v1.2.0) (2022-02-13)
 
 
