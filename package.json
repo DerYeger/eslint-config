@@ -1,0 +1,49 @@
+{
+  "name": "@yeger/eslint-config",
+  "version": "0.0.0",
+  "description": "ESLint config preset based on @antfu/eslint-config.",
+  "keywords": [
+    "eslint",
+    "eslint-config",
+    "eslint-preset"
+  ],
+  "license": "MIT",
+  "repository": "github:DerYeger/eslint-config",
+  "homepage": "https://github.com/DerYeger/eslint-config",
+  "bugs": {
+    "url": "https://github.com/DerYeger/eslint-config/issues"
+  },
+  "author": {
+    "name": "Jan Müller",
+    "url": "https://github.com/DerYeger"
+  },
+  "files": [
+    "index.js"
+  ],
+  "main": "index.js",
+  "scripts": {
+    "prepare": "husky install",
+    "lint": "eslint \"./**/*.{js,json}\""
+  },
+  "sideEffects": false,
+  "lint-staged": {
+    "*.{js,json}": "eslint --fix"
+  },
+  "peerDependencies": {
+    "eslint": ">=7.4.0"
+  },
+  "dependencies": {
+    "@antfu/eslint-config": "0.16.1"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "16.1.0",
+    "@commitlint/config-conventional": "16.0.0",
+    "@yeger/eslint-config": "link:.",
+    "eslint": "8.9.0",
+    "husky": "7.0.4",
+    "lint-staged": "12.3.3"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
