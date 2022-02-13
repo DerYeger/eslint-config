@@ -12,8 +12,6 @@ yarn add -D eslint @yeger/eslint-config
 
 ```json
 {
-  "extends": [
-    "@yeger"
-  ]
+  "extends": ["@yeger"]
 }
 ```

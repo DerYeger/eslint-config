@@ -23,7 +23,8 @@
   "main": "index.js",
   "scripts": {
     "prepare": "husky install",
-    "lint": "eslint \"./**/*.{js,json,md}\""
+    "lint": "eslint \"./**/*.{js,json,md}\"",
+    "fix": "nr lint --fix"
   },
   "sideEffects": false,
   "lint-staged": {
@@ -36,13 +37,16 @@
     "@antfu/eslint-config": "0.16.1"
   },
   "devDependencies": {
+    "@antfu/ni": "0.12.0",
     "@commitlint/cli": "16.1.0",
     "@commitlint/config-conventional": "16.0.0",
     "@yeger/eslint-config": "link:.",
     "eslint": "8.9.0",
     "eslint-plugin-markdown": "2.2.1",
+    "eslint-plugin-prettier": "4.0.0",
     "husky": "7.0.4",
-    "lint-staged": "12.3.3"
+    "lint-staged": "12.3.3",
+    "prettier": "2.5.1"
   },
   "publishConfig": {
     "access": "public"
