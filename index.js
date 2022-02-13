@@ -1,24 +1,20 @@
 module.exports = {
   extends: [
     '@antfu',
+    'plugin:import/recommended',
     'plugin:markdown/recommended',
     'plugin:md/recommended',
     'plugin:prettier/recommended',
     'plugin:yml/standard',
     'plugin:yml/prettier',
   ],
+  plugins: ['eslint-plugin-tsdoc', 'unused-imports'],
   overrides: [
     {
       files: ['*.md'],
       parser: 'markdown-eslint-parser',
       rules: {
-        'prettier/prettier': [
-          'error',
-          // Important to force prettier to use "markdown" parser - otherwise it wouldn't be able to parse *.md files.
-          // You also can configure other options supported by prettier here - "prose-wrap" is
-          // particularly useful for *.md files
-          { parser: 'markdown' },
-        ],
+        'prettier/prettier': ['error', { parser: 'markdown' }],
       },
     },
     {
@@ -28,11 +24,54 @@ module.exports = {
   ],
   rules: {
     '@typescript-eslint/brace-style': ['error', '1tbs'],
+    '@typescript-eslint/explicit-member-accessibility': [
+      'error',
+      {
+        accessibility: 'explicit',
+        overrides: {
+          accessors: 'explicit',
+          constructors: 'explicit',
+          parameterProperties: 'explicit',
+        },
+      },
+    ],
+    '@typescript-eslint/no-unused-vars': 'off',
     'brace-style': ['error', '1tbs'],
+    'import/named': 'off',
+    'import/no-unresolved': 'off',
+    'import/order': [
+      'error',
+      {
+        'newlines-between': 'always',
+        alphabetize: {
+          order: 'asc',
+          caseInsensitive: true,
+        },
+      },
+    ],
     'md/remark': [
       'error',
       {
         plugins: ['frontmatter', ['lint-maximum-line-length', false]],
+      },
+    ],
+    'no-multiple-empty-lines': [
+      'error',
+      {
+        max: 1,
+        maxEOF: 1,
+      },
+    ],
+    'no-unused-vars': 'off',
+    'tsdoc/syntax': 'error',
+    'unused-imports/no-unused-imports': 'error',
+    'unused-imports/no-unused-vars': [
+      'error',
+      {
+        vars: 'all',
+        varsIgnorePattern: '^_',
+        args: 'after-used',
+        argsIgnorePattern: '^_',
       },
     ],
   },
