@@ -1,3 +1,10 @@
+# [1.4.0](https://github.com/DerYeger/eslint-config/compare/v1.3.0...v1.4.0) (2022-02-13)
+
+
+### Features
+
+* add rules ([17e0680](https://github.com/DerYeger/eslint-config/commit/17e0680938573e9e28bcf06a905f9653ece85d58))
+
 # [1.3.0](https://github.com/DerYeger/eslint-config/compare/v1.2.0...v1.3.0) (2022-02-13)
 
 
