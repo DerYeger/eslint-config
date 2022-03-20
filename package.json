@@ -8,33 +8,30 @@
     "eslint-preset"
   ],
   "license": "MIT",
+  "author": {
+    "name": "Jan Müller",
+    "url": "https://github.com/DerYeger"
+  },
   "repository": "github:DerYeger/eslint-config",
   "homepage": "https://github.com/DerYeger/eslint-config",
   "bugs": {
     "url": "https://github.com/DerYeger/eslint-config/issues"
   },
-  "author": {
-    "name": "Jan Müller",
-    "url": "https://github.com/DerYeger"
-  },
+  "main": "index.js",
   "files": [
     "index.js"
   ],
-  "main": "index.js",
+  "sideEffects": false,
   "scripts": {
     "prepare": "husky install",
     "lint": "eslint \"./**/*.{js,json,md,yaml,yml}\"",
     "fix": "nr lint --fix"
   },
-  "sideEffects": false,
-  "lint-staged": {
-    "*.{js,json,md,yaml,yml}": "eslint --fix"
-  },
   "peerDependencies": {
     "eslint": ">=7.4.0"
   },
   "dependencies": {
-    "@antfu/eslint-config": "0.18.3",
+    "@antfu/eslint-config": "0.18.9",
     "eslint-config-prettier": "8.5.0",
     "eslint-plugin-cypress": "2.12.1",
     "eslint-plugin-import": "2.25.4",
@@ -55,5 +52,8 @@
     "eslint": "8.11.0",
     "husky": "7.0.4",
     "lint-staged": "12.3.7"
+  },
+  "lint-staged": {
+    "*.{js,json,md,yaml,yml}": "eslint --fix"
   }
 }
