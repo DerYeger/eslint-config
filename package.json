@@ -34,7 +34,7 @@
     "@antfu/eslint-config": "0.19.4",
     "eslint-config-prettier": "8.5.0",
     "eslint-plugin-cypress": "2.12.1",
-    "eslint-plugin-import": "2.25.4",
+    "eslint-plugin-import": "2.26.0",
     "eslint-plugin-markdown": "2.2.1",
     "eslint-plugin-md": "1.0.19",
     "eslint-plugin-prettier": "4.0.0",
