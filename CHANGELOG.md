@@ -1,3 +1,10 @@
+## [1.4.12](https://github.com/DerYeger/eslint-config/compare/v1.4.11...v1.4.12) (2022-04-06)
+
+
+### Bug Fixes
+
+* **deps:** update dependency eslint-plugin-import to v2.26.0 ([fadec4e](https://github.com/DerYeger/eslint-config/commit/fadec4e11d9fd678513bb0ad655d491518b12aa8))
+
 ## [1.4.11](https://github.com/DerYeger/eslint-config/compare/v1.4.10...v1.4.11) (2022-04-03)
 
 
