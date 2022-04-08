@@ -1,3 +1,10 @@
+## [1.4.14](https://github.com/DerYeger/eslint-config/compare/v1.4.13...v1.4.14) (2022-04-08)
+
+
+### Bug Fixes
+
+* **deps:** update dependency eslint-plugin-tsdoc to v0.2.15 ([51e8d93](https://github.com/DerYeger/eslint-config/commit/51e8d93c0e352e2da2d246783565000ba06464eb))
+
 ## [1.4.13](https://github.com/DerYeger/eslint-config/compare/v1.4.12...v1.4.13) (2022-04-07)
 
 
