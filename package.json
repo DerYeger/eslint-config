@@ -1,6 +1,6 @@
 {
   "name": "@yeger/eslint-config",
-  "version": "1.4.18",
+  "version": "1.4.19",
   "description": "ESLint config preset based on @antfu/eslint-config.",
   "keywords": [
     "eslint",
