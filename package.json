@@ -51,7 +51,7 @@
     "@yeger/eslint-config": "link:.",
     "eslint": "8.14.0",
     "husky": "7.0.4",
-    "lint-staged": "12.4.0"
+    "lint-staged": "12.4.1"
   },
   "lint-staged": {
     "*.{js,json,md,yaml,yml}": "eslint --fix"
