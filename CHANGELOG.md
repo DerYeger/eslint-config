@@ -1,3 +1,10 @@
+## [1.4.23](https://github.com/DerYeger/eslint-config/compare/v1.4.22...v1.4.23) (2022-05-15)
+
+
+### Bug Fixes
+
+* **deps:** update dependency eslint-plugin-yml to v0.15.0 ([f2c2d79](https://github.com/DerYeger/eslint-config/commit/f2c2d790f4b7e4b9a6a514e5902099ef97b33044))
+
 ## [1.4.22](https://github.com/DerYeger/eslint-config/compare/v1.4.21...v1.4.22) (2022-05-14)
 
 
