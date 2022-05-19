@@ -1,3 +1,11 @@
+## [1.4.24](https://github.com/DerYeger/eslint-config/compare/v1.4.23...v1.4.24) (2022-05-19)
+
+
+### Bug Fixes
+
+* **deps:** update dependency eslint-plugin-yml to v1 ([1a1a082](https://github.com/DerYeger/eslint-config/commit/1a1a082a5c2cf8375ef5a3fe775ea3da86855aaa))
+* **deps:** update dependency yaml-eslint-parser to v1 ([60328af](https://github.com/DerYeger/eslint-config/commit/60328af527f7dc63b380dec786526d640c57ea97))
+
 ## [1.4.23](https://github.com/DerYeger/eslint-config/compare/v1.4.22...v1.4.23) (2022-05-15)
 
 
