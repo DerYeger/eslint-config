@@ -2,26 +2,26 @@
   "name": "@yeger/eslint-config",
   "version": "1.4.24",
   "description": "ESLint config preset based on @antfu/eslint-config.",
+  "author": {
+    "name": "Jan Müller",
+    "url": "https://github.com/DerYeger"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/DerYeger/eslint-config",
+  "repository": "github:DerYeger/eslint-config",
+  "bugs": {
+    "url": "https://github.com/DerYeger/eslint-config/issues"
+  },
   "keywords": [
     "eslint",
     "eslint-config",
     "eslint-preset"
   ],
-  "license": "MIT",
-  "author": {
-    "name": "Jan Müller",
-    "url": "https://github.com/DerYeger"
-  },
-  "repository": "github:DerYeger/eslint-config",
-  "homepage": "https://github.com/DerYeger/eslint-config",
-  "bugs": {
-    "url": "https://github.com/DerYeger/eslint-config/issues"
-  },
+  "sideEffects": false,
   "main": "index.js",
   "files": [
     "index.js"
   ],
-  "sideEffects": false,
   "scripts": {
     "prepare": "husky install",
     "lint": "eslint \"./**/*.{js,json,md,yaml,yml}\"",
@@ -31,7 +31,7 @@
     "eslint": ">=7.4.0"
   },
   "dependencies": {
-    "@antfu/eslint-config": "0.23.1",
+    "@antfu/eslint-config": "0.24.2",
     "eslint-config-prettier": "8.5.0",
     "eslint-plugin-cypress": "2.12.1",
     "eslint-plugin-import": "2.26.0",
