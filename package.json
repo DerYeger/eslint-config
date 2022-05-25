@@ -46,7 +46,7 @@
   },
   "devDependencies": {
     "@antfu/ni": "0.16.2",
-    "@commitlint/cli": "17.0.0",
+    "@commitlint/cli": "17.0.1",
     "@commitlint/config-conventional": "17.0.0",
     "@yeger/eslint-config": "link:.",
     "eslint": "8.16.0",
