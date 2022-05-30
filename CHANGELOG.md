@@ -1,3 +1,10 @@
+## [1.4.26](https://github.com/DerYeger/eslint-config/compare/v1.4.25...v1.4.26) (2022-05-30)
+
+
+### Bug Fixes
+
+* **deps:** update dependency @antfu/eslint-config to v0.25.0 ([7c4ffb2](https://github.com/DerYeger/eslint-config/commit/7c4ffb2e0c8653c33d82975c54fbb7f77c3145a8))
+
 ## [1.4.25](https://github.com/DerYeger/eslint-config/compare/v1.4.24...v1.4.25) (2022-05-25)
 
 
