@@ -1,3 +1,10 @@
+## [1.4.28](https://github.com/DerYeger/eslint-config/compare/v1.4.27...v1.4.28) (2022-06-15)
+
+
+### Bug Fixes
+
+* **deps:** update dependency prettier to v2.7.0 ([381d9ed](https://github.com/DerYeger/eslint-config/commit/381d9ede813bcef7cc0297abb183fe2d7908c11a))
+
 ## [1.4.27](https://github.com/DerYeger/eslint-config/compare/v1.4.26...v1.4.27) (2022-06-04)
 
 
