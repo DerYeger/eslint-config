@@ -1,3 +1,10 @@
+## [1.4.30](https://github.com/DerYeger/eslint-config/compare/v1.4.29...v1.4.30) (2022-06-25)
+
+
+### Bug Fixes
+
+* **deps:** update all non-major dependencies ([3ea654e](https://github.com/DerYeger/eslint-config/commit/3ea654e1e81a89c5fb7dab857be8ae40ea463174))
+
 ## [1.4.29](https://github.com/DerYeger/eslint-config/compare/v1.4.28...v1.4.29) (2022-06-16)
 
 
