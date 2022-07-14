@@ -45,7 +45,7 @@
     "yaml-eslint-parser": "1.0.1"
   },
   "devDependencies": {
-    "@antfu/ni": "0.16.3",
+    "@antfu/ni": "0.17.2",
     "@commitlint/cli": "17.0.3",
     "@commitlint/config-conventional": "17.0.3",
     "@yeger/eslint-config": "link:.",
