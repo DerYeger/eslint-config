@@ -1,3 +1,10 @@
+## [1.4.33](https://github.com/DerYeger/eslint-config/compare/v1.4.32...v1.4.33) (2022-07-17)
+
+
+### Bug Fixes
+
+* **deps:** update dependency eslint-plugin-markdown to v3 ([0ad3557](https://github.com/DerYeger/eslint-config/commit/0ad3557881afade8c2a67526acfcc5d1ba7282b1))
+
 ## [1.4.32](https://github.com/DerYeger/eslint-config/compare/v1.4.31...v1.4.32) (2022-06-30)
 
 
