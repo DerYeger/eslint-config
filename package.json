@@ -1,6 +1,6 @@
 {
   "name": "@yeger/eslint-config",
-  "version": "1.4.34",
+  "version": "1.4.35",
   "description": "ESLint config preset based on @antfu/eslint-config.",
   "author": {
     "name": "Jan Müller",
