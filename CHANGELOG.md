@@ -1,3 +1,10 @@
+## [1.4.37](https://github.com/DerYeger/eslint-config/compare/v1.4.36...v1.4.37) (2022-08-27)
+
+
+### Bug Fixes
+
+* **deps:** update dependency eslint to v8.23.0 ([c41654c](https://github.com/DerYeger/eslint-config/commit/c41654cfcab1533525b17d316a5d9dfcb97de096))
+
 ## [1.4.36](https://github.com/DerYeger/eslint-config/compare/v1.4.35...v1.4.36) (2022-08-11)
 
 
