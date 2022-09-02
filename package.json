@@ -31,7 +31,7 @@
     "eslint": ">=7.4.0"
   },
   "dependencies": {
-    "@antfu/eslint-config": "0.26.1",
+    "@antfu/eslint-config": "0.26.2",
     "eslint-config-prettier": "8.5.0",
     "eslint-plugin-cypress": "2.12.1",
     "eslint-plugin-import": "2.26.0",
@@ -45,7 +45,7 @@
     "yaml-eslint-parser": "1.1.0"
   },
   "devDependencies": {
-    "@antfu/ni": "0.17.2",
+    "@antfu/ni": "0.18.0",
     "@commitlint/cli": "17.0.3",
     "@commitlint/config-conventional": "17.0.3",
     "@yeger/eslint-config": "link:.",
