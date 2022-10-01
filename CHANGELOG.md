@@ -1,3 +1,10 @@
+## [1.4.43](https://github.com/DerYeger/eslint-config/compare/v1.4.42...v1.4.43) (2022-10-01)
+
+
+### Bug Fixes
+
+* **deps:** update dependency @antfu/ni to v0.18.2 ([639764d](https://github.com/DerYeger/eslint-config/commit/639764db5ad96c3e7ee92ed838c8f97320e8bc30))
+
 ## [1.4.42](https://github.com/DerYeger/eslint-config/compare/v1.4.41...v1.4.42) (2022-09-24)
 
 
