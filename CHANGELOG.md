@@ -1,3 +1,10 @@
+## [1.4.48](https://github.com/DerYeger/eslint-config/compare/v1.4.47...v1.4.48) (2022-11-05)
+
+
+### Bug Fixes
+
+* **deps:** update commitlint monorepo to v17.2.0 ([c3f7683](https://github.com/DerYeger/eslint-config/commit/c3f768348caf42a7decd27394cf8f313f7bd756a))
+
 ## [1.4.47](https://github.com/DerYeger/eslint-config/compare/v1.4.46...v1.4.47) (2022-11-05)
 
 
