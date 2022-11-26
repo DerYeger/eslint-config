@@ -46,8 +46,8 @@
   },
   "devDependencies": {
     "@antfu/ni": "0.18.8",
-    "@commitlint/cli": "17.2.0",
-    "@commitlint/config-conventional": "17.2.0",
+    "@commitlint/cli": "17.3.0",
+    "@commitlint/config-conventional": "17.3.0",
     "@yeger/eslint-config": "link:.",
     "eslint": "8.28.0",
     "husky": "8.0.2",
